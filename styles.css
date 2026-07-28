@@ -1292,12 +1292,15 @@ html, body {
   }
   
   /* Hero Section on Mobile */
+  .hero-section, .hero-container, .main-content {
+    min-height: auto !important;
+    height: auto !important;
+  }
   .hero-container {
     flex-direction: column;
     text-align: center;
     padding-top: calc(var(--nav-height) + 1.5rem);
-    padding-bottom: 3rem;
-    min-height: auto;
+    padding-bottom: 4rem !important;
     gap: 2rem;
   }
   .hero-content {
