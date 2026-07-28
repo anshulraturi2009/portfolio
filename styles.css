@@ -42,12 +42,12 @@ body {
 
 /* Mobile & Tablet Full Vertical Scroll (1024px and below) */
 @media (max-width: 1024px) {
-  html, body, body.home-page {
-    overflow-y: scroll !important;
+  html, body, body.home-page, .main-content, .hero-section, .hero-container, .hero-content, .hero-image-wrapper {
+    overflow-y: auto !important;
     overflow-x: hidden !important;
     height: auto !important;
     min-height: 100% !important;
-    position: relative !important;
+    touch-action: pan-y !important;
     -webkit-overflow-scrolling: touch !important;
   }
 }
