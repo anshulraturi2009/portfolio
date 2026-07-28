@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow:
 
-Sitemap: https://anshulraturi.dev/sitemap.xml
+Sitemap: https://anshulraturi2009.github.io/portfolio/sitemap.xml
