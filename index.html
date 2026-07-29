@@ -20,31 +20,73 @@
 
   <!-- JSON-LD Structured Data: Person Schema (Google Knowledge Graph) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Anshul Raturi",
-    "alternateName": "Anshul Raturi Developer",
-    "jobTitle": "Full-Stack Software Developer",
-    "url": "https://anshulraturi2009.github.io/portfolio/",
-    "image": "my image.png",
-    "alumniOf": {
-      "@type": "EducationalOrganization",
-      "name": "Pithuwala Polytechnic, Dehradun"
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://anshulraturi2009.github.io/portfolio/#anshulraturi",
+      "name": "Anshul Raturi",
+      "alternateName": ["Anshul Raturi Developer", "Anshul Raturi Dehradun", "Anshul Raturi Founder"],
+      "jobTitle": "Full-Stack Software Developer",
+      "url": "https://anshulraturi2009.github.io/portfolio/",
+      "image": "my image.png",
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Pithuwala Polytechnic, Dehradun"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dehradun",
+        "addressRegion": "Uttarakhand",
+        "addressCountry": "India"
+      },
+      "knowsAbout": ["C++", "Python", "JavaScript", "Full-Stack Development", "AI/ML", "SQL", "Git"],
+      "sameAs": [
+        "https://www.linkedin.com/in/anshul-raturi-b94325377",
+        "https://github.com/anshulraturi2009",
+        "https://www.instagram.com/__anshul__raturi__/",
+        "https://wa.me/917456057507"
+      ]
     },
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Dehradun",
-      "addressRegion": "Uttarakhand",
-      "addressCountry": "India"
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "RaturiHub AI",
+      "alternateName": "RaturiGPT",
+      "applicationCategory": "DeveloperApplication",
+      "url": "https://raturi-gpt.web.app/",
+      "author": {
+        "@type": "Person",
+        "name": "Anshul Raturi",
+        "url": "https://anshulraturi2009.github.io/portfolio/"
+      },
+      "creator": {
+        "@type": "Person",
+        "name": "Anshul Raturi",
+        "url": "https://anshulraturi2009.github.io/portfolio/"
+      },
+      "description": "RaturiHub AI (RaturiGPT) is an intelligent AI platform founded and engineered by Anshul Raturi."
     },
-    "knowsAbout": ["C++", "Python", "JavaScript", "Full-Stack Development", "AI/ML", "SQL", "Git"],
-    "sameAs": [
-      "https://github.com/anshulraturi2009",
-      "https://www.instagram.com/__anshul__raturi__/",
-      "https://wa.me/917456057507"
-    ]
-  }
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "MAX AI Assistant",
+      "alternateName": "MAX AI",
+      "applicationCategory": "DeveloperApplication",
+      "url": "https://max-ai-a030a.web.app/auth",
+      "author": {
+        "@type": "Person",
+        "name": "Anshul Raturi",
+        "url": "https://anshulraturi2009.github.io/portfolio/"
+      },
+      "creator": {
+        "@type": "Person",
+        "name": "Anshul Raturi",
+        "url": "https://anshulraturi2009.github.io/portfolio/"
+      },
+      "description": "MAX AI Assistant is an enterprise-grade secure AI platform founded and engineered by Anshul Raturi."
+    }
+  ]
   </script>
 </head>
 <body class="home-page page-transition">
